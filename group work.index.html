@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Document</title>
+</head>
+
+<body>
+    <form action="/submit_registration" method="post">
+        <h2>WORKER'S REGISTRATION FORM </h2>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="home address">Home Address:</label><br>
+        <input type="text" id="address" name="address"><br>
+
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        </select><br>
+
+
+        <label for="phone number">Phone number</label><br>
+        <input type="text" id="phone number" name="phone number"><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br>
+
+        <label for="position">Position:</label><br>
+        <select id="position" name="position">
+        <option value="MD">Managing director</option>
+        <option value="secetary">Secetary</option>
+
+        </select><br>
+
+
+        <label for="state">State of Origin:</label><br>
+        <input type="text" id="state" name="state"><br>
+
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+        <option value="NIG">Nigeria</option>
+        <option value="GHN">Ghana</option>
+        <option value="OTH">Other</option>
+
+        </select><br>
+
+        <label for="year_employed">Year Employed:</label><br>
+        <input type="number" id="year_employed" name="year_employed"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
